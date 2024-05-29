@@ -1,0 +1,60 @@
+/* xxxxxxxxx Responsivo 1440px xxxxxxxxx */
+
+@media (min-width: 750px) {
+    .summary {
+        width: 285px;
+        grid-area: summary;
+        padding-right: 40px;
+    }
+
+    .btn {
+        grid-area: btn;
+        padding-right: 40px;
+        margin-left: 40px
+    }
+
+    .attribution {
+        grid-area: attribution;
+        padding-right: 40px;
+        padding-bottom: 15px;
+    }
+
+    #score {
+        grid-area: score;
+        height: 510px;
+        width: 370px;
+        border-radius: 10% 10% 10% 10%;
+    }
+
+    .score__point {
+        height: 220px;
+        width: 220px;
+        gap: 0px;
+    }
+
+    .score__resultado {
+        font-size: 24px;
+    }
+
+    .score__point--part1 {
+        font-size: 80px;
+    }
+
+    .score__texto--titulo {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        display: grid;
+        grid-template:
+            'score summary'
+            'score summary'
+            'score btn'
+            'score attribution';
+        box-shadow: 30px 30px 50px 0px var(--cor-sombra);
+        border-radius: 50px;
+        height: 510px;
+        width: 740px;
+    }
+}

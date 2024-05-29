@@ -1,0 +1,113 @@
+/* xxxxxxxxx Tabela xxxxxxxxx */
+
+.summary {
+    color: var(--cor-escuro);
+    margin-left: 40px;
+}
+
+.summary__tabela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.summary__titulo {
+    font-weight: 700;
+    margin: 1.5em 0 1.5em 0;
+    font-size: 1.2em;
+}
+
+.summary__pontuacao {
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.summary__pontuacao .porcentagem {
+    opacity: 0.4;
+}
+
+.summary__base {
+    height: 50px;
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.summary__image {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.summary__image img {
+    margin: 0 10px 0 10px;
+}
+
+/* xxxxxxxxx Tabela - 01 xxxxxxxxx */
+
+.summary__tabela--01 {
+    background: hsla(var(--cor-vermelho-opac), var(--opacidade-tabela));
+}
+
+.summary__t01 {
+    color: var(--cor-vermelho);
+}
+
+/* xxxxxxxxx Tabela - 02 xxxxxxxxx */
+
+.summary__tabela--02 {
+    background: hsla(var(--cor-amarelo-opac), var(--opacidade-tabela));
+}
+
+.summary__t02 {
+    color: var(--cor-amarelo);
+}
+
+/* xxxxxxxxx Tabela - 03 xxxxxxxxx */
+
+.summary__tabela--03 {
+    background: hsla(var(--cor-verde-opac), var(--opacidade-tabela));
+}
+
+.summary__t03 {
+    color: var(--cor-verde);
+}
+
+/* xxxxxxxxx Tabela - 04 xxxxxxxxx */
+
+.summary__tabela--04 {
+    background: hsla(var(--cor-azul-opac), var(--opacidade-tabela));
+}
+
+.summary__t04 {
+    color: var(--cor-azul);
+}
+
+/* xxxxxxxxx Botão xxxxxxxxx */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin-left: 40px; */
+}
+
+.btn__efeito {
+    height: 60px;
+    width: 285px;
+    border-radius: 30px;
+    color: var(--cor-score-text);
+    background: var(--cor-botao);
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+}
+
+.btn__efeito:hover {
+    background: var(--cor-gradiente);
+}

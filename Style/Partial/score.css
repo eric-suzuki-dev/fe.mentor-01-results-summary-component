@@ -1,0 +1,61 @@
+/* xxxxxxxxx Pontuação xxxxxxxxx */
+
+#score {
+    height: 350px;
+    width: 375px;
+    border-radius: 0 0 10% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--cor-gradiente);
+    color: var(--cor-score-text);
+}
+
+.score__resultado {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.score__point {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(78, 33, 202, 0.6), rgba(78, 33, 202, 0.1));
+}
+
+.score__point--part1 {
+    color: var(--cor-principal);
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.score__point--part2 {
+    font-weight: 500;
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+
+.score__texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score__texto--titulo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.score__texto--detalhe {
+    font-size: 16px;
+    margin: 10px;
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
