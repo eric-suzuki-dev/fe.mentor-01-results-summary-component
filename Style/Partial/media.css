@@ -4,13 +4,12 @@
     .summary {
         width: 285px;
         grid-area: summary;
+        margin-left: 40px;
         padding-right: 40px;
     }
 
     .btn {
         grid-area: btn;
-        padding-right: 40px;
-        margin-left: 40px
     }
 
     .attribution {
@@ -19,28 +18,28 @@
         padding-bottom: 15px;
     }
 
-    #score {
+    .score {
         grid-area: score;
         height: 510px;
         width: 370px;
         border-radius: 10% 10% 10% 10%;
     }
 
-    .score__point {
+    .score__circle {
         height: 220px;
         width: 220px;
         gap: 0px;
     }
 
-    .score__resultado {
+    .score h1{
         font-size: 24px;
     }
 
-    .score__point--part1 {
+    .score__total {
         font-size: 80px;
     }
 
-    .score__texto--titulo {
+    .score__great {
         font-size: 30px;
         margin-bottom: 10px;
     }
@@ -56,5 +55,15 @@
         border-radius: 50px;
         height: 510px;
         width: 740px;
+    }
+
+    #Reaction, #Memory, #Verbal, #Visual {
+        width: 255px;
+    }
+
+    .category {
+        font-size: 20px;
+        margin: 0 80px 0 15px;
+        font-weight: 700;
     }
 }

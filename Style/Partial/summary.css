@@ -1,90 +1,86 @@
-/* xxxxxxxxx Tabela xxxxxxxxx */
-
+/* xxxxxxxxx summary xxxxxxxxx */
 .summary {
     color: var(--cor-escuro);
-    margin-left: 40px;
-}
-
-.summary__tabela {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.summary__titulo {
-    font-weight: 700;
-    margin: 1.5em 0 1.5em 0;
-    font-size: 1.2em;
-}
-
-.summary__pontuacao {
-    font-weight: 700;
-    margin-right: 20px;
-}
-
-.summary__pontuacao .porcentagem {
-    opacity: 0.4;
-}
-
-.summary__base {
-    height: 50px;
-    width: 285px;
-    display: flex;
+    /* align-items: center; */
     justify-content: space-between;
-    align-items: center;
+    height: 450px;
+    width: 310px;
+    gap: 20px;
     border-radius: 10px;
 }
 
-.summary__image {
+.summary__title {
+    text-align: left;
+    font-weight: 700;
+    margin: 24px 0 12px 0;
+    font-size: 20px;
+}
+
+/* xxxxxxxxx json xxxxxxxxx */
+#Reaction, #Memory, #Verbal, #Visual {
     display: flex;
     align-items: center;
-    font-weight: 700;
-    font-size: 16px;
+    justify-content: space-between;
+    height: 60px;
+    width: 280px;
+    padding: 20px 15px;
+    border-radius: 10px;
 }
 
-.summary__image img {
-    margin: 0 10px 0 10px;
+/* xxxxxxxxx summary color xxxxxxxxx */
+#Reaction {
+    background-color: var(--cor-vermelho-opac);
 }
 
-/* xxxxxxxxx Tabela - 01 xxxxxxxxx */
-
-.summary__tabela--01 {
-    background: hsla(var(--cor-vermelho-opac), var(--opacidade-tabela));
+#Memory {
+    background-color: var(--cor-amarelo-opac);
 }
 
-.summary__t01 {
+#Verbal {
+    background-color: var(--cor-verde-opac);
+}
+
+#Visual {
+    background-color: var(--cor-azul-opac);
+}
+
+#Reaction>h3{
     color: var(--cor-vermelho);
 }
 
-/* xxxxxxxxx Tabela - 02 xxxxxxxxx */
-
-.summary__tabela--02 {
-    background: hsla(var(--cor-amarelo-opac), var(--opacidade-tabela));
-}
-
-.summary__t02 {
+#Memory>h3 {
     color: var(--cor-amarelo);
 }
 
-/* xxxxxxxxx Tabela - 03 xxxxxxxxx */
-
-.summary__tabela--03 {
-    background: hsla(var(--cor-verde-opac), var(--opacidade-tabela));
-}
-
-.summary__t03 {
+#Verbal>h3 {
     color: var(--cor-verde);
 }
 
-/* xxxxxxxxx Tabela - 04 xxxxxxxxx */
-
-.summary__tabela--04 {
-    background: hsla(var(--cor-azul-opac), var(--opacidade-tabela));
+#Visual>h3 {
+    color: var(--cor-azul);
 }
 
-.summary__t04 {
-    color: var(--cor-azul);
+/* xxxxxxxxx containers in summary xxxxxxxxx */
+
+.image {
+    height: 18px;
+    width: 18px;
+}
+
+.category {
+    font-size: 16px;
+    margin: 0 110px 0 15px;
+    font-weight: 700;
+}
+
+.point {
+    font-weight: 700;
+}
+
+.total {
+    color: hsla(224, 30%, 27%, 0.5);
 }
 
 /* xxxxxxxxx Botão xxxxxxxxx */
@@ -92,22 +88,22 @@
 .btn {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 15px;
     /* margin-left: 40px; */
 }
 
-.btn__efeito {
+button {
     height: 60px;
-    width: 285px;
-    border-radius: 30px;
+    width: 310px;
+    background-color: var(--cor-botao);
     color: var(--cor-score-text);
-    background: var(--cor-botao);
+    border-radius: 30px;
     font-size: 1.1em;
     font-weight: 700;
     text-align: center;
     border: none;
 }
 
-.btn__efeito:hover {
+button:hover {
     background: var(--cor-gradiente);
 }

@@ -10,14 +10,14 @@
     --cor-botao: hsl(224, 30%, 27%);
     --fonte-principal: 'Hanken Grotesk', sans-serif;
 
-    --opacidade-tabela: 0.1;
-    --cor-vermelho-opac: 0, 100%, 67%;
+    /* --opacidade-tabela: 0.1; */
+    --cor-vermelho-opac: hsla(0, 100%, 67%, 0.1);
     --cor-vermelho: hsl(0, 79%, 54%);
-    --cor-amarelo-opac: 39, 100%, 56%;
+    --cor-amarelo-opac: hsla(39, 100%, 56%, 0.1);
     --cor-amarelo: hsl(39, 88%, 51%);
-    --cor-verde-opac: 166, 100%, 37%;
+    --cor-verde-opac: hsla(166, 100%, 37%, 0.1);
     --cor-verde: hsl(166, 94%, 31%);
-    --cor-azul-opac: 234, 85%, 45%;
+    --cor-azul-opac: hsla(234, 85%, 45%, 0.1);
     --cor-azul: hsl(234, 88%, 36%);
 
     --cor-sombra: hsla(241, 100%, 89%, 0.473);
